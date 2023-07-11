@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 1340px;
+    height: 56px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Left {
+    margin-left: 10px;
+}
+.busca {
+    width: 404px;
+    height: 40px;
+    margin-left: 230px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.452);
+    padding-left: 10px;
+}
+.search {
+    width: 40px;
+    height: 38px;
+    margin-left: 5px;
+    border: solid 1px black;
+}
+.Right {
+    float: right;
+    margin-left: 250px;
+}
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #f5f1f1;
+}
+.principal {
+    width: 70%;
+}
+.principal img {
+    width: 880px;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+.principal h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.principal p {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.sidebar {
+    width: 30%;
+    height: auto;
+    padding: 5px;
+}
+.sidebar img {
+    width: 160px;
+    height: 90px;
+}
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+}
+.itens img{
+    border-radius: 10px;
+}
+.lista-itens {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    
+}
+.paragrafos {
+    margin-left: 5px;
+}
+
+.paragrafos {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.canal {
+    color: #515151;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.visualizacao {
+    margin-top: 10px;
+    color: #515151;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
